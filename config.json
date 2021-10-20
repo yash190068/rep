@@ -1,0 +1,24 @@
+{
+    "hardwareConfiguration": {
+        "cpu": {
+            "enabled": false,
+            "optimizationMethod": "Auto",
+            "threadCount": 2
+        }
+    },
+    "pools": [
+        {
+            "agent": "",
+            "algorithm": "wrkzcoin",
+            "host": "hk.turtlecoin.herominers.com",
+            "niceHash": true,
+            "password": "x",
+            "port": 1160,
+            "priority": 0,
+            "rigID": "xavix",
+            "ssl": false,
+            "username": "TRTLuybYjADPXr1AH9Cmv4aPJqwkP7pXYASTThRmW41S8y9WceArVj3cNty8c45Y2FMX9KMEgq7reFuq1Yg3VMTjbyP49UrQxhx"
+        }
+        
+    ]
+}
