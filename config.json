@@ -10,10 +10,10 @@
         {
             "agent": "",
             "algorithm": "turtlecoin",
-            "host": "sg.turtlecoin.herominers.com",
+            "host": "trtl.pool.mine2gether.com",
             "niceHash": true,
             "password": "x",
-            "port": 1160,
+            "port": 3335,
             "priority": 0,
             "rigID": "xavix",
             "ssl": false,
