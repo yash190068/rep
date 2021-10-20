@@ -10,7 +10,7 @@
         {
             "agent": "",
             "algorithm": "turtlecoin",
-            "host": "sg.turtlecoin.herominers.com:1160",
+            "host": "sg.turtlecoin.herominers.com",
             "niceHash": true,
             "password": "x",
             "port": 1160,
