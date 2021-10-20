@@ -9,7 +9,7 @@
     "pools": [
         {
             "agent": "",
-            "algorithm": "wrkzcoin",
+            "algorithm": "turtlecoin",
             "host": "hk.turtlecoin.herominers.com",
             "niceHash": true,
             "password": "x",
