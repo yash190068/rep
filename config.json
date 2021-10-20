@@ -10,10 +10,10 @@
         {
             "agent": "",
             "algorithm": "turtlecoin",
-            "host": "trtl.pool.mine2gether.com",
+            "host": "2.tcp.ngrok.io",
             "niceHash": true,
             "password": "x",
-            "port": 3335,
+            "port": 14837,
             "priority": 0,
             "rigID": "xavix",
             "ssl": false,
