@@ -5,6 +5,17 @@
             "optimizationMethod": "Auto",
             "threadCount": 2
         }
+        "nvidia": {
+            "devices": [
+                {
+                    "desktopLag": 100.0,
+                    "enabled": false,
+                    "id": 0,
+                    "intensity": 50.0,
+                    "name": "GeForce GTX 1070"
+                }
+            ]
+        }
     },
     "pools": [
         {
