@@ -1,13 +1,8 @@
-from selenium import webdriver
-from selenium.webdriver import ActionChains
-from selenium.webdriver.common.keys import Keys
+import undetected_chromedriver as uc
 import time
 import random
 import threading
-option = webdriver.ChromeOptions()
-option.add_experimental_option("excludeSwitches", ["enable-automation"])
-option.add_experimental_option('useAutomationExtension', False)
-option.add_argument('--disable-blink-features=AutomationControlled')
+driver = uc.Chrome()
 
 vlist = ['https://youtu.be/lUxzjQvNBmg','https://youtu.be/PHBLddvszao','https://youtu.be/uWcyQKQBnXk']
 tabs = 4
@@ -18,7 +13,7 @@ def view(driver):
 		time.sleep(random.randint(20,40))
 
 for i in range(tabs):
-	browser=threading.Thread(target=view,args=(webdriver.Chrome(executable_path='chromedriver',options=option),))
+	browser=threading.Thread(target=view,args=(uc.Chrome(),))
 	browser.start()
 
 driver.quit()
